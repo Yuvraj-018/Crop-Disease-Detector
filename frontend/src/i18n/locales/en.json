@@ -1,0 +1,189 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "retry": "Retry",
+    "view_all": "View all →",
+    "healthy": "Healthy",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "critical": "Critical",
+    "save": "Save",
+    "cancel": "Cancel",
+    "prev": "Prev",
+    "next": "Next",
+    "page_info": "Page {{page}} of {{totalPages}}"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "scan": "Scan",
+    "history": "History",
+    "treatments": "Treatments",
+    "outbreak": "Outbreak Map",
+    "profile": "Profile"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to monitor and protect your crops",
+      "email_label": "Email Address",
+      "email_placeholder": "name@example.com",
+      "password_label": "Password",
+      "password_placeholder": "••••••••",
+      "submit": "Sign In",
+      "no_account": "Don't have an account?",
+      "register_link": "Register here"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join CropGuard to start analyzing your harvest",
+      "name_label": "Full Name",
+      "name_placeholder": "Rajesh Kumar",
+      "email_label": "Email Address",
+      "email_placeholder": "name@example.com",
+      "phone_label": "Phone Number (Optional)",
+      "phone_placeholder": "9876543210",
+      "region_label": "Region/State (Optional)",
+      "region_placeholder": "Punjab, India",
+      "password_label": "Password",
+      "password_placeholder": "••••••••",
+      "submit": "Create Account",
+      "has_account": "Already have an account?",
+      "login_link": "Sign in here"
+    }
+  },
+  "dashboard": {
+    "title": "Command Center",
+    "greeting": "Good morning, {{name}} 👋",
+    "greeting_afternoon": "Good afternoon, {{name}} 👋",
+    "greeting_evening": "Good evening, {{name}} 👋",
+    "new_scan": "New Scan",
+    "failed_stats": "Failed to load statistics.",
+    "stats": {
+      "total_scans": "Total Scans",
+      "total_scans_sub": "All time",
+      "diseases_found": "Diseases Found",
+      "diseases_found_sub": "This month",
+      "healthy_crops": "Healthy Crops",
+      "healthy_crops_sub": "{{count}} scans",
+      "accuracy_rate": "Accuracy Rate",
+      "accuracy_rate_sub": "Model v2"
+    },
+    "trend": {
+      "title": "Scan Trend",
+      "subtitle": "Weekly activity",
+      "no_data": "No scan data yet — start your first scan!"
+    },
+    "recent": {
+      "title": "Recent Scans",
+      "total": "{{count}} total",
+      "failed": "Failed to load recent scans.",
+      "no_scans": "No scans yet",
+      "no_scans_desc": "Upload your first crop image to get a disease diagnosis.",
+      "action_btn": "Analyse Now"
+    },
+    "most_detected": {
+      "label": "Most Detected Disease"
+    }
+  },
+  "analyse": {
+    "title": "Disease Diagnosis",
+    "subtitle": "Upload or take a photo of the infected crop leaf for instant AI analysis.",
+    "dropzone": {
+      "active": "Drop the crop photo here...",
+      "idle": "Drag & drop a crop photo, or click to browse",
+      "helper": "Supports JPEG, PNG (max 10MB)"
+    },
+    "options": {
+      "title": "Scan Configuration",
+      "gps_label": "Record GPS Location",
+      "gps_desc": "Helps trace outbreaks in your region",
+      "gps_fetching": "Fetching location...",
+      "gps_success": "Location captured: {{lat}}, {{lng}}",
+      "gps_failed": "Failed to get location"
+    },
+    "diagnosing": "Analyzing crop image...",
+    "results": {
+      "title": "Diagnosis Result",
+      "healthy_title": "Your Crop looks Healthy!",
+      "healthy_desc": "No signs of major disease detected. Keep monitoring regularly.",
+      "disease_detected": "Disease Detected",
+      "confidence": "AI Confidence",
+      "severity": "Severity Level",
+      "symptoms": "Symptoms",
+      "prevention": "Prevention Tips",
+      "causes": "Possible Causes",
+      "view_treatments": "View Recommended Treatments",
+      "reanalyse": "Scan Another Image"
+    },
+    "feedback": {
+      "title": "Help us improve",
+      "desc": "Was this diagnosis accurate?",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "unsure": "Unsure",
+      "notes_placeholder": "Add any notes (optional)...",
+      "submit": "Submit Feedback",
+      "success": "Thank you for your feedback!"
+    }
+  },
+  "history": {
+    "title": "Scan History",
+    "filter_all": "All Severities",
+    "filter_healthy": "Healthy Only",
+    "tabs": {
+      "all": "All",
+      "diseased": "Diseased",
+      "healthy": "Healthy"
+    },
+    "failed": "Failed to load scan history.",
+    "no_results": "No scans found matching your search.",
+    "total_scans": "{{count}} scans total",
+    "details": {
+      "title": "Scan Detail",
+      "back": "Back to History",
+      "scanned_on": "Scanned on {{date}}",
+      "diagnostic_details": "Diagnostic Details",
+      "unhealthy_warning": "Warning: Highly infectious disease detected. Take immediate preventive measures."
+    }
+  },
+  "treatments": {
+    "title": "Treatment Guide",
+    "search_placeholder": "Search crops, diseases, or ingredients...",
+    "filter_all": "All Types",
+    "filter_organic": "Organic Certified",
+    "filter_chemical": "Chemical Solutions",
+    "filter_cultural": "Cultural/Physical",
+    "filter_biological": "Biological Control",
+    "no_results": "No treatments found.",
+    "details": {
+      "type": "Treatment Type",
+      "effectiveness": "Effectiveness",
+      "active_ingredient": "Active Ingredient",
+      "dosage": "Dosage/Rate",
+      "method": "Application Method",
+      "timing": "Best Timing",
+      "waiting_period": "Harvest Waiting Period",
+      "cost": "Cost Estimate",
+      "organic_badge": "100% Organic"
+    }
+  },
+  "outbreak": {
+    "title": "Outbreak Monitor",
+    "subtitle": "Real-time visualization of crop diseases reported in your region.",
+    "failed": "Failed to load outbreak map.",
+    "no_data": "No disease outbreaks reported recently.",
+    "legend": {
+      "title": "Disease Types",
+      "healthy": "Healthy Scans",
+      "infected": "Infected Scans"
+    }
+  },
+  "profile": {
+    "title": "User Profile",
+    "sign_out": "Sign Out",
+    "language": "Preferred Language",
+    "details": "Profile Details",
+    "member_since": "Member since {{date}}"
+  }
+}

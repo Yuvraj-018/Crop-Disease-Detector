@@ -1,0 +1,189 @@
+{
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "retry": "पुनः प्रयास करें",
+    "view_all": "सभी देखें →",
+    "healthy": "स्वस्थ",
+    "low": "कम",
+    "medium": "मध्यम",
+    "high": "उच्च",
+    "critical": "गंभीर",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "prev": "पिछला",
+    "next": "अगला",
+    "page_info": "पृष्ठ {{page}} / {{totalPages}}"
+  },
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "scan": "स्कैन",
+    "history": "इतिहास",
+    "treatments": "उपचार गाइड",
+    "outbreak": "प्रकोप मानचित्र",
+    "profile": "प्रोफ़ाइल"
+  },
+  "auth": {
+    "login": {
+      "title": "आपका स्वागत है",
+      "subtitle": "अपनी फसलों की निगरानी और सुरक्षा के लिए साइन इन करें",
+      "email_label": "ईमेल पता",
+      "email_placeholder": "name@example.com",
+      "password_label": "पासवर्ड",
+      "password_placeholder": "••••••••",
+      "submit": "साइन इन करें",
+      "no_account": "खाता नहीं है?",
+      "register_link": "यहाँ पंजीकरण करें"
+    },
+    "register": {
+      "title": "खाता बनाएं",
+      "subtitle": "अपनी फसल का विश्लेषण शुरू करने के लिए क्रॉपगार्ड से जुड़ें",
+      "name_label": "पूरा नाम",
+      "name_placeholder": "राजेश कुमार",
+      "email_label": "ईमेल पता",
+      "email_placeholder": "name@example.com",
+      "phone_label": "फ़ोन नंबर (वैकल्पिक)",
+      "phone_placeholder": "9876543210",
+      "region_label": "क्षेत्र/राज्य (वैकल्पिक)",
+      "region_placeholder": "पंजाब, भारत",
+      "password_label": "पासवर्ड",
+      "password_placeholder": "••••••••",
+      "submit": "खाता बनाएं",
+      "has_account": "पहले से ही एक खाता है?",
+      "login_link": "यहाँ साइन इन करें"
+    }
+  },
+  "dashboard": {
+    "title": "कमांड सेंटर",
+    "greeting": "शुभ प्रभात, {{name}} 👋",
+    "greeting_afternoon": "नमस्कार, {{name}} 👋",
+    "greeting_evening": "शुभ संध्या, {{name}} 👋",
+    "new_scan": "नया स्कैन",
+    "failed_stats": "आंकड़े लोड करने में विफल।",
+    "stats": {
+      "total_scans": "कुल स्कैन",
+      "total_scans_sub": "कुल समय",
+      "diseases_found": "पाए गए रोग",
+      "diseases_found_sub": "इस महीने",
+      "healthy_crops": "स्वस्थ फसलें",
+      "healthy_crops_sub": "{{count}} स्कैन",
+      "accuracy_rate": "सटीकता दर",
+      "accuracy_rate_sub": "मॉडल संस्करण २"
+    },
+    "trend": {
+      "title": "स्कैन की प्रवृत्ति",
+      "subtitle": "साप्ताहिक गतिविधि",
+      "no_data": "अभी तक कोई स्कैन डेटा नहीं है — अपना पहला स्कैन शुरू करें!"
+    },
+    "recent": {
+      "title": "हाल के स्कैन",
+      "total": "कुल {{count}}",
+      "failed": "हाल के स्कैन लोड करने में विफल।",
+      "no_scans": "अभी तक कोई स्कैन नहीं",
+      "no_scans_desc": "रोग निदान प्राप्त करने के लिए अपनी पहली फसल की छवि अपलोड करें।",
+      "action_btn": "अभी विश्लेषण करें"
+    },
+    "most_detected": {
+      "label": "सबसे अधिक पाया गया रोग"
+    }
+  },
+  "analyse": {
+    "title": "फसल रोग निदान",
+    "subtitle": "तत्काल एआई विश्लेषण के लिए संक्रमित फसल के पत्ते की तस्वीर अपलोड करें या खींचें।",
+    "dropzone": {
+      "active": "फसल की तस्वीर यहाँ छोड़ें...",
+      "idle": "फसल की तस्वीर खींचकर यहाँ लाएँ, या फ़ाइल चुनने के लिए क्लिक करें",
+      "helper": "JPEG, PNG का समर्थन (अधिकतम 10MB)"
+    },
+    "options": {
+      "title": "स्कैन कॉन्फ़िगरेशन",
+      "gps_label": "जीपीएस स्थान रिकॉर्ड करें",
+      "gps_desc": "आपके क्षेत्र में बीमारी के प्रकोप को ट्रैक करने में मदद करता है",
+      "gps_fetching": "स्थान खोजा जा रहा है...",
+      "gps_success": "स्थान मिला: {{lat}}, {{lng}}",
+      "gps_failed": "स्थान प्राप्त करने में विफल"
+    },
+    "diagnosing": "फसल की छवि का विश्लेषण किया जा रहा है...",
+    "results": {
+      "title": "निदान का परिणाम",
+      "healthy_title": "आपकी फसल स्वस्थ लग रही है!",
+      "healthy_desc": "किसी बड़ी बीमारी के लक्षण नहीं मिले। नियमित निगरानी रखें।",
+      "disease_detected": "रोग का पता चला",
+      "confidence": "एआई का विश्वास",
+      "severity": "गंभीरता का स्तर",
+      "symptoms": "लक्षण",
+      "prevention": "रोकथाम के उपाय",
+      "causes": "संभावित कारण",
+      "view_treatments": "अनुशंसित उपचार देखें",
+      "reanalyse": "दूसरा स्कैन करें"
+    },
+    "feedback": {
+      "title": "सुधार में मदद करें",
+      "desc": "क्या यह निदान सटीक था?",
+      "correct": "सही",
+      "incorrect": "गलत",
+      "unsure": "अनिश्चित",
+      "notes_placeholder": "कोई टिप्पणी जोड़ें (वैकल्पिक)...",
+      "submit": "प्रतिक्रिया भेजें",
+      "success": "आपकी प्रतिक्रिया के लिए धन्यवाद!"
+    }
+  },
+  "history": {
+    "title": "स्कैन का इतिहास",
+    "filter_all": "सभी गंभीरता स्तर",
+    "filter_healthy": "केवल स्वस्थ",
+    "tabs": {
+      "all": "सभी",
+      "diseased": "संक्रमित",
+      "healthy": "स्वस्थ"
+    },
+    "failed": "स्कैन इतिहास लोड करने में विफल।",
+    "no_results": "आपकी खोज से मेल खाता कोई स्कैन नहीं मिला।",
+    "total_scans": "कुल {{count}} स्कैन",
+    "details": {
+      "title": "स्कैन विवरण",
+      "back": "इतिहास पर वापस जाएं",
+      "scanned_on": "स्कैन की तारीख: {{date}}",
+      "diagnostic_details": "नैदानिक विवरण",
+      "unhealthy_warning": "चेतावनी: अत्यधिक संक्रामक रोग का पता चला है। तत्काल निवारक उपाय करें।"
+    }
+  },
+  "treatments": {
+    "title": "उपचार गाइड",
+    "search_placeholder": "फसलें, रोग, या सामग्री खोजें...",
+    "filter_all": "सभी प्रकार",
+    "filter_organic": "प्रमाणित जैविक",
+    "filter_chemical": "रासायनिक समाधान",
+    "filter_cultural": "सांस्कृतिक/भौतिक",
+    "filter_biological": "जैविक नियंत्रण",
+    "no_results": "कोई उपचार नहीं मिला।",
+    "details": {
+      "type": "उपचार का प्रकार",
+      "effectiveness": "प्रभावशीलता",
+      "active_ingredient": "सक्रिय सामग्री",
+      "dosage": "खुराक/मात्रा",
+      "method": "लगाने की विधि",
+      "timing": "सबसे अच्छा समय",
+      "waiting_period": "फसल काटने की प्रतीक्षा अवधि",
+      "cost": "लागत अनुमान",
+      "organic_badge": "100% जैविक"
+    }
+  },
+  "outbreak": {
+    "title": "प्रकोप मानचित्र",
+    "subtitle": "आपके क्षेत्र में रिपोर्ट किए गए फसल रोगों का वास्तविक समय दृश्य।",
+    "failed": "प्रकोप मानचित्र लोड करने में विफल।",
+    "no_data": "हाल ही में किसी बीमारी के प्रकोप की रिपोर्ट नहीं की गई है।",
+    "legend": {
+      "title": "रोग के प्रकार",
+      "healthy": "स्वस्थ स्कैन",
+      "infected": "संक्रमित स्कैन"
+    }
+  },
+  "profile": {
+    "title": "उपयोगकर्ता प्रोफ़ाइल",
+    "sign_out": "लॉग आउट करें",
+    "language": "पसंदीदा भाषा",
+    "details": "प्रोफ़ाइल विवरण",
+    "member_since": "{{date}} से सदस्य"
+  }
+}
